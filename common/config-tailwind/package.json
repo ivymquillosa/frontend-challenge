@@ -1,0 +1,16 @@
+{
+  "name": "@stack/config-tailwind",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./tailwind.config.ts"
+  },
+  "devDependencies": {
+    "@stack/config-typescript": "workspace:*",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "tailwindcss-animate": "^1.0.7",
+    "tailwindcss-react-aria-components": "^1.1.1"
+  }
+}

@@ -1,0 +1,1 @@
+const o={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{expanded:!0,matchers:{color:/(background|color)$/i,date:/Date$/}},options:{storySort:{order:["Default Config","Handcrafted Components","React Aria Components","Radix Components"]},viewMode:"docs"}}};export{o as default};

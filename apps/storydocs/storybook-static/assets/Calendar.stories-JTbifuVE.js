@@ -1,0 +1,3 @@
+import{j as a}from"./jsx-runtime-CUEGZZF9.js";import{r as d}from"./index-DogsOklH.js";import{C as s}from"./index--X1B5bpF.js";import"./extends-dGVwEr9R.js";import"./index-MroJ3egt.js";import"./index-polp_dyw.js";function p(){const[n,m]=d.useState(new Date);return a(s,{className:"rounded-md border",mode:"single",onSelect:m,selected:n})}const x={title:"Radix Components/Calendar",component:s,tags:["autodocs"],argTypes:{}},e={render:()=>a(p,{})};var r,t,o;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  render: () => <CalendarComponent />
+}`,...(o=(t=e.parameters)==null?void 0:t.docs)==null?void 0:o.source}}};const g=["Default"];export{e as Default,g as __namedExportsOrder,x as default};
