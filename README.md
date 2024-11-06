@@ -1,47 +1,44 @@
-# Get started with Turbostack
-This collection represents a portion of my personal experience and knowledge, developed over time through working with a variety of UI libraries. I’ve applied different tools and techniques to create effective user interfaces, leveraging what I’ve learned to build well-crafted React components. Each element in this compilation highlights my ability to use these libraries to create both functional and visually appealing interfaces.
+## Build a TODO app
+![image](https://github.com/user-attachments/assets/120c1421-2cc9-41db-8a8b-908603835a8e)
 
-These are some of the technologies used in creating these Turbostack UI Components:
+- Tailwind CSS
+- React
+- RecoilJS
+- Typescript
 
-- 🏎 [Turborepo](https://turbo.build/repo) — High-performance build system for Monorepos
-- 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
-- 🛠 [Tsup](https://github.com/egoist/tsup) — TypeScript bundler powered by esbuild
-- 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) — Utility-first CSS framework for rapid UI development
-- 📦 [PNPm](https://pnpm.io/) — Fast, disk space efficient package manager
-
-As well as a few others tools preconfigured:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-- [GitHub Actions](https://github.com/changesets/action) for fully automated package publishing
-{/* - [Changesets](https://github.com/changesets/changesets) for managing versioning and changelogs */}
+## Requirement
+- This should all be client side. Do not worry about server side
+- Pay attention to code and folder structures
+- We are open to any suggestion and want to test your thinking and problem solving skills
+- The aesthetics and animation matter. Use your imagination
+- Make it a complete application so that it is usable
+- All features of the tech stack should be used
+- Make it responsive
+- Fork this repository and submit your implementation
 
 
 ## Useful Commands
 - `pnpm install` - Install all dependencies for the monorepo.
-- `pnpm build` - Build all packages, including the Storybook site
-- `pnpm dev` - Run all packages locally and preview with Storybook
+- `pnpm build` - Build all packages
+- `pnpm dev` - Run all packages locally and preview Todo app
+- `pnpm preview-storybook` - Run all packages locally and preview with Storybook
 - `pnpm lint` - Lint all packages
 - `pnpm clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
 {/* - `pnpm changeset` - Generate a changeset */}
 
 ## Apps & Packages
 
-This Turborepo includes the following packages and applications:
+This Monorepo includes the following packages and applications:
 
+- `apps/todo-app`: Vite-React of Todo List App
 - `apps/storydocs`: Component documentation site with Storybook
 - `common/classnames`: A utility function designed to handle and combine CSS class names
-- `common/config-eslint`: ESLint preset
+- `common/config-eslint`: Shared ESLint preset
 - `common/config-tailwind`: Shared `tailwind.config.ts`s used throughout the Turborepo
 - `common/config-typescript`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/aria-components`: React components with [React Aria](https://react-spectrum.adobe.com/react-aria/) library
 - `packages/handcrafted-components`: Built-from-scratch React components
 - `packages/radix-components`: React components with [Radix UI](https://www.radix-ui.com/) library
-- `stacked/dashboard`: Pending development
-- `stacked/forms`: Pending development
-- `stacked/cards`: Pending development
+
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-w` workspaces flag with `pnpm add`.
 

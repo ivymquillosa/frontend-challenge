@@ -10,6 +10,11 @@
       "cache": false,
       "persistent": true
     },
+    "storybook": {
+      "dependsOn": ["^build"],
+      "cache": false,
+      "outputs": []
+    },
     "clean": {
       "cache": false
     }
